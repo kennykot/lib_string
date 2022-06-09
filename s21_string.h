@@ -1,4 +1,4 @@
-//  Copyright 2022 jewfishc, trenamim, guinilic, brainych, plummero
+//  Copyright 2022 <Anton Tuzov>
 #ifndef SRC_S21_STRING_H_
 #define SRC_S21_STRING_H_
 #define s21_NULL ((void *)0)

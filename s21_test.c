@@ -1,4 +1,4 @@
-//  Copyright 2022 jewfishc, trenamim, guinilic, brainych, plummero
+//  Copyright 2022 <Anton Tuzov>
 #include <check.h>
 #include "s21_string.h"
 #include <string.h>
