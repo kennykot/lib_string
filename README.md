@@ -11,7 +11,7 @@ a string of n characters is represented as an array of n + 1 elements, the last 
 
 The project includes:
 1. memchr, memcmp, memmove, memset, strcat, strncat, strchr, strcmp, strncmp, strcpy, strncpy, strerror, strlen, strpbrk, strrchr, strspn, strstr, strtok, tolower, toupper, insert, trim.
-2. sprintf with specifiers "i, d, f, u, c, s, %, h, l, L" and flags "-, +, space, width, precision".
+2. sprintf with specifiers "i, d, f, u, c, s, %, h, l, L" and flags "-, +, 0, space, width, precision".
 
 
 The repository is updated from time to time.
