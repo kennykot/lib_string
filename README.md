@@ -72,12 +72,10 @@ The project includes:
 - Functions developed as a static library (with the header file s21_string.h)
 - The library developed according to the principles of structured programming
 - There are prefix "s21" before each function"
+- There are implemented platform-specific errors arrays, as it was mentioned in the description of the strerror function.
 - Library functions have full coverage with unit-tests with the check.h library
 - Unit-tests check the results of my implementation by comparing them with the implementation of the standard math.h library
 - Unit tests cover at least 90% of each function (checked using gcovr)
--  Use Makefile for building the library and tests (the targets: _all, clean, test, s21_math.a, gcov_report_) 
- - The gcov_report target should generate a gcov report in the form of an html page. Unit tests must be run with gcov flags to do this
-
- - It is forbidden to use system errors arrays, including those not specified in POSIX (sys_nerr, sys_errlist). Instead, you need to implement your own platform-specific errors arrays, as it was mentioned in the description of the [strerror function](#stringh-functions)  
+- Use Makefile for building the library and tests (the targets: _all, clean, test, s21_math.a, gcov_report_) 
 
 All code is the property of Anton Tuzov.
