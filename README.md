@@ -11,7 +11,6 @@
 
 ## Description of the implemented functions of the string.h library
 
-The project includes:
 | No. | Function | Description |
 | ------ | ------ | ------ |
 | 1 | void *memchr(const void *str, int c, size_t n) | Searches for the first occurrence of the character c (an unsigned char) in the first n bytes of the string pointed to, by the argument str. |
@@ -43,15 +42,15 @@ The project includes:
 
 ### Sprintf specifiers
 
-| No. | Specifier | sprintf output | sscanf output |
-| --- | --- | --- | --- |
-| 1 | c | Character | Character |
-| 2 | d | Signed decimal integer | Signed decimal integer |
-| 3 | i | Signed decimal integer | Signed integer (may be decimal, octal or hexadecimal) |
-| 4 | f | Decimal floating point | Decimal floating point or scientific notation (mantissa/exponent) |
-| 5 | s | String of characters | String of characters |
-| 6 | u | Unsigned decimal integer | Unsigned decimal integer |
-| 7 | % | Character % | Character % |
+| No. | Specifier | sprintf output |
+| --- | --- | --- |
+| 1 | c | Character |
+| 2 | d | Signed decimal integer |
+| 3 | i | Signed decimal integer |
+| 4 | f | Decimal floating point |
+| 5 | s | String of characters |
+| 6 | u | Unsigned decimal integer |
+| 7 | % | Character % |
 
 ### Sprintf flags
 
