@@ -40,7 +40,7 @@
 | 25 | void *trim(const char *src, const char *trim_chars) | Returns a new string in which all leading and trailing occurrences of a set of specified characters (trim_chars) from the given string (src) are removed. In case of any error, return NULL |
 
 
-### Sprintf specifiers
+## Sprintf specifiers
 
 | No. | Specifier | sprintf output |
 | --- | --- | --- |
@@ -52,7 +52,7 @@
 | 6 | u | Unsigned decimal integer |
 | 7 | % | Character % |
 
-### Sprintf flags
+## Sprintf flags
 
 | No. | Flags | Description |
 | --- | --- | --- |
