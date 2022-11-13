@@ -73,7 +73,7 @@
 - There are prefix "s21" before each function"
 - There are implemented platform-specific errors arrays, as it was mentioned in the description of the strerror function.
 - Library functions have full coverage with unit-tests with the check.h library
-- Unit-tests check the results of my implementation by comparing them with the implementation of the standard math.h library
+- Unit-tests check the results of my implementation by comparing them with the implementation of the standard string.h library
 - Unit tests cover at least 90% of each function (checked using gcovr)
 - Use Makefile for building the library and tests (the targets: _all, clean, test, s21_math.a, gcov_report_) 
 
